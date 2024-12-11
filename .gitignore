@@ -1,0 +1,21 @@
+# Ignore Python virtual environments
+venv/
+
+# Ignore .env file
+.env
+
+# Ignore Django migration files
+*.pyc
+__pycache__/
+
+# Ignore static files collected for deployment
+/staticfiles/
+
+# Ignore other OS or IDE-specific files
+*.log
+*.sqlite3
+.DS_Store
+.idea/
+
+#
+SOCAnalyst/webapp
